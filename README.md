@@ -108,7 +108,7 @@ I recommend storing this in the user session to eliminate repetitive data lookup
 
 				{
 					type: 'filter',
-					attribute: 'role',
+					attribute: 'roles',
 					operator: 'has',
 					comparator: 'writer'
 				},
@@ -130,7 +130,7 @@ I recommend storing this in the user session to eliminate repetitive data lookup
 
 				{
 					type: 'filter',
-					attribute: 'role',
+					attribute: 'roles',
 					operator: 'has',
 					comparator: 'writer'
 				}
